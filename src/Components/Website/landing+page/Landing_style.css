@@ -1,0 +1,263 @@
+.elementor-section {
+    position: relative;
+}
+
+
+.main-heading h2 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #fff;
+    font-family: futura bold,Sans-serif;
+}
+
+.hero-text-top p {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: futura bold,Sans-serif;
+}
+
+.pdl-4 {
+    padding-left: 4%;
+}
+
+.icon_and_text{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+
+.icon-content {
+    display: flex;
+    align-items: center;  
+}
+
+.elementor-kit-56 a {
+    color:#FFFFFF;
+}
+.icon-left img {
+    height: 50px;
+}
+
+.elementor img {
+    /* height: auto; */
+    max-width: 100%;
+    border: none;
+    /* -webkit-border-radius: 0; */
+    border-radius: 0;
+    /* -webkit-box-shadow: none; */
+    box-shadow: none;
+}
+.icon-right {
+    line-height: 1.2;
+    font-size: 22px;
+    font-weight: 500;
+    color:#FFFFFF;
+
+}
+
+
+    .icon-left {
+        margin-right: 15px;
+        width: 60px;
+        
+    }
+.icon-left.icon-right img {
+    height: auto;
+}
+
+.imgyoutube{
+    width: 50px;
+}
+
+.secondicon{
+    margin-left: 2rem;
+}
+.uploadimg{
+    height: 50px !important;
+}
+.btn_grouplandingpage{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.bt_second{
+    margin-bottom: 15px;
+    margin-right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px;
+    background: #d603ed;
+}
+.bt_second a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.btn_first{
+    background: #e77fc8;
+    margin-bottom: 15px;
+    margin-right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px;
+}
+.btn_first a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+@media screen and (max-width:600px) {
+    .main-heading h2 {
+        font-size: 2rem;
+        font-weight: 600;
+      
+    }
+    .full_size{
+        display: none;
+    }
+    
+    .hero-text-top p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .icon-right {
+        line-height: 1.2;
+        font-size: 15px;
+        font-weight: 500;
+        color:#FFFFFF;
+    
+    }
+    .imgyoutube{
+        width:30px;
+    }
+    
+    .secondicon{
+        margin-left: 1rem;
+    }
+    .uploadimg{
+        height: 40px !important;
+    }
+    .icon-left {
+        margin-right: -20px;
+        width: 60px;
+        
+    }
+    .btn_grouplandingpage{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .bt_second{
+      margin-left: 1rem;
+    }
+   
+    
+}
+
+
+
+@media (min-width:600px) and (max-width:4500px) {
+    .imginresposuve{
+        display: none;
+    }
+
+    .inresponsiveslider{
+        display: none;
+    }
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.mainsection_landinopage {
+    background-image: url("../../../Assets/Middle-Plaque-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px 0 30px;
+  
+
+}
+.elementor-3567 .elementor-element.elementor-element-075c0e6 {
+    transition:  .3s,border .3s,border-radius .3s,box-shadow .3s;
+  
+}
+@media (max-width: 1024px){
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1024px;
+}}
+@media (min-width: 768px){
+.elementor-column.elementor-col-100, .elementor-column[data-col="100"] {
+    width: 100%;
+}
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+
+.elementor-widget {
+    position: relative;
+}
+.services-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.services-icon a {
+    display: inline-block;
+}
+.services-icon a img {
+    height: 50px;
+}
+
+
+@media screen and (max-width:800px) {
+    .services-icon a img {
+        height: 30px;
+    }
+}
+
+
+@media screen  and (max-width:600px) {
+
+    .mainsection_landinopage{
+        display: none;
+    }
+    .slider_home{
+        margin-left: -10rem;
+        width: 100%;
+    }
+
+    
+}
+
+@media (min-width:350px) and (max-width:600px) {
+    .img_in_slidere{
+        margin-left: 3rem;
+    }
+}
+

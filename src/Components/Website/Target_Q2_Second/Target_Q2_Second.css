@@ -1,0 +1,89 @@
+
+
+.Target_Q2_Second_Main{
+    background-image: url("../../../Assets/Round-Plaque-Bottom.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+
+
+.Target_slider_main {
+
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.target_Q2_slider{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.iconbtn{
+    color: #eec884 !important;
+    font-size: 70px;
+}
+.icon_slider_targert{
+    display: flex;
+    justify-content: center; 
+}
+
+.text_slider_down{
+    width: 50%;
+    text-align: center;
+}
+.down_main_p{
+    display: flex;
+    justify-content: center; 
+}
+
+@media (min-width:800px) and (max-width:1200px) {
+
+    .Target_slider_main {
+
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+}
+
+@media screen and (max-width:800px) {
+
+    .in_large_slider{
+        display: none;
+    }
+    .in_reposive_slider{
+        width: 100%;
+     
+    }
+   
+    .inner_slider_in_reso{
+     margin-left: -6rem;
+     width: 100%;
+    }
+    .slider_img_responsice{
+        width: 50% !important;
+        /* height: 10; */
+     /* margin-left: -5rem; */
+
+    }
+    .down_main_p{
+        display: flex;
+        justify-content: center; 
+        width: 100%;
+    }
+}
+
+@media (min-width:801px) and (max-width:5000px) {
+    .in_reposive_slider{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,41 @@
+
+
+.news_page_main_div{
+    background-image: url("../../../Assets/Middle-Plaque.png");
+    background-position: 0% 16%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 0 0 80px;
+    position: relative;
+}
+
+.news_heading {
+    padding: 50px 0 0;
+}
+
+.news_heading h2 {
+    font-family: "Inter",Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1em;
+    text-align: center;
+    color: white;
+
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+}
+
+
+.news_slider_main{
+    margin-top: 10rem;
+    display: flex;
+    justify-content:center;
+    width: 90%
+}
+
+.swiper_slide_image_second_img{
+    margin-left: 5rem;
+}

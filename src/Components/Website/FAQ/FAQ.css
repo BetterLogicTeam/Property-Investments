@@ -1,0 +1,123 @@
+
+
+.distribution-section.faq-section .position-coin-img img {
+    /* position: absolute; */
+    height: 205px;
+    /* right: 0px;
+    top: -75px; */
+}
+.distribution-section {
+    text-align: center;
+    position: relative;
+}
+.FAQ_setion_div_imd_and_text{
+    margin-top: 2rem;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.elementor-element.faq-section-content .eael-accordion-content {
+    color: #efc984 !important;
+    border: none !important;
+}
+.elementor-3567 .elementor-element.elementor-element-03db16d .eael-adv-accordion .eael-accordion-list .eael-accordion-header .eael-accordion-tab-title {
+    color: #efc984 !important;
+}
+
+
+
+
+
+.accordion-button::after {
+    background-image: url("https://evergrowcoin.com/wp-content/uploads/2021/12/FAQ_Cross.png");
+    transform: scale(1.3) !important;
+    color: #efc984 !important;
+    
+
+  }
+.accordion-button:not(.collapsed)::after {
+background-image: url("https://evergrowcoin.com/wp-content/uploads/2021/12/FAQ_Cross.png");
+color: #efc984 !important;
+
+}
+
+
+.faq_faq_heading{
+    background-color: transparent !important;
+    background: transparent;
+    color: #efc984 !important;
+text-decoration: none;
+
+
+}
+.accordion-button{
+    border-bottom: 1px solid #efc984;
+
+}
+
+.text_accountfaq{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.Faq_div_width_here{
+    width: 60%;
+    
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .Faq_div_width_here{
+        width: 100% !important;
+        
+    }
+    .text_accountfaq{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .check{
+        display: flex;
+        justify-content: start;
+    }
+    .FAQ_setion_div_imd_and_text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15rem;
+    }
+    .distribution-section.faq-section .position-coin-img img {
+        position: absolute;
+        height: 205px;
+        right: 0rem;
+        top: -175px;
+        left: 4rem;
+        
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    .distribution-section.faq-section .position-coin-img img {
+        position: absolute;
+        height: 205px;
+        right: 0rem;
+        top: -175px;
+        left: 2rem;
+        
+    }
+
+}

@@ -1,0 +1,44 @@
+
+.TargetQ2_bg{
+    background-image: url("../../../Assets/NFTGame-Plaque.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0;
+    position: relative;
+}
+.about-position-image img {
+    position: absolute;
+    height: 230px;
+    width: 25px;
+    /* left: -10px; */
+    /* margin-top: 2rem; */
+}
+.targetQ2_heading{
+    position: relative;
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+ .elementor-widget-container img {
+    position: relative;
+    /* top: -80px; */
+}
+.elementor-widget-image img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.targetQ_hwadinghere h2{
+    color: #BE52FF;
+}
+
+.img_SecondQ121{
+    margin-top: -70px;
+}
+
+@media screen and (max-width:600px) {
+    .img_SecondQ121{
+        margin-top: 0rem;
+    }
+    
+}

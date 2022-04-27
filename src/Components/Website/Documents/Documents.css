@@ -1,0 +1,53 @@
+
+
+.img_doc_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.doc_text h2{
+    font-size: 2.8rem !important;
+    font-weight: 900;
+}
+.custom-btn-box.documents {
+    margin-bottom: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.custom-btn-box.documents a {
+    min-width: 135px;
+    padding: 7px 5px !important;
+    font-size: 12px;
+    min-height: 50px;
+    display: flex !important;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    margin: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.fade-btn.custom-btn {
+    background: #e77fc8;
+}
+a.custom-btn.yellow-fade {
+    background: #c3a26c;
+}
+.custom-btn {
+    background: #d603ed;
+    /* padding: 15px 25px; */
+    /* font-weight: 300; */
+    /* display: inline-block; */
+    /* margin-right: 20px; */
+    /* color: #fff !important; */
+}
+a.custom-btn.blue {
+    background: #4c00ba;
+}
+

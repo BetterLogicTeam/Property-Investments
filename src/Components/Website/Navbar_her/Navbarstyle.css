@@ -1,0 +1,88 @@
+.navbghere{
+    background-image: url("../../../Assets/Plaque_UP1-min.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 20px 0 50px 0;
+   
+}
+
+
+
+.navlink{
+    font-size: 22px !important;
+    margin-right: 0px !important;
+    padding: 4px 10px !important;
+    color: #280062 !important;
+    font-weight: 400 !important;
+    /* margin-left: 2rem; */
+}
+.mainnavlink{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid  red; */
+    margin-right: 50px !important;
+}
+.brand{
+    /* border: 1px solid  red; */
+width: 15rem;
+margin-left: 3rem;
+
+}
+
+.navhere{
+    border-right: 1px solid #3b0562;
+
+    /* margin-left: 1.5rem; */
+}
+
+title{
+    font-size: 22px !important;
+    margin-right: 0px !important;
+    padding: 4px 10px !important;
+    color: #280062 !important;
+    font-weight: 400 !important;
+    /* margin-left: 2rem; */
+}
+
+.caret {
+    display: none !important;
+  }
+  
+
+  .droplink{
+    font-size: 22px !important;
+    margin-right: 0px !important;
+    padding: 4px 10px !important;
+    color: #280062 !important;
+    font-weight: 400 !important;
+    text-align: center;
+  }
+
+  .droplink:hover{
+      background-color: #efc984;
+  }
+
+  @media screen and (max-width:800px) {
+    .navhere{
+        border-right:none;
+    }
+    .mainnavlink{
+        margin-top: 2rem;
+        padding-bottom: 80px;
+    }
+    .log_nav{
+        width: 100%;
+    }
+    .brand{
+        /* border: 1px solid red; */
+        margin-left: -0rem;
+        width: 12rem;
+    }
+
+  }
+
+  .decoration{
+      text-decoration: none;
+  }

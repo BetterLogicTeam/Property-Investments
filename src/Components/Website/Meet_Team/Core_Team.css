@@ -1,0 +1,73 @@
+
+
+.core_team_bg_heading_first{
+    background-image: url("../../../Assets/Bottom-Plaque1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 50px;
+    position: relative;
+}
+
+section.elementor-section.meet-team-heading .meet-team-section .position-coin-img img {
+    position: absolute;
+    height: 180px;
+    right: 190px;
+    top: -140px;
+}
+
+.second_bg_here_core_team{
+    background-image: url("../../../Assets/Middle-Plaque-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px 0 30px;
+    z-index: 1;
+}
+
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-links ul li:first-child {
+    margin-right: 15px;
+}
+.social-links ul li a {
+    display: block;
+}
+
+.elementor-kit-56 a {
+    color: #fff;
+}
+.social-links ul li a img {
+    max-width: 40px;
+}
+
+
+.name_and_des{
+    margin-top: -2rem !important;
+  }
+  
+ 
+
+
+  @media screen and (max-width:800px) {
+    section.elementor-section.meet-team-heading .meet-team-section .position-coin-img img {
+        position: absolute;
+        height: 180px;
+        right: 0px;
+        top: -180px;
+    }
+  }
+
+
+  /* ---------------------------------------------------------Community--------------------------------------- */
+
+  .commuity_dic_text h2{
+      font-size: 3rem;
+      font-weight: 900;
+  }

@@ -1,0 +1,163 @@
+
+
+.main_bg_Target_Q1{
+    background-image: url("../../../Assets/Plaque-CRATOR1.png");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 50px 0 150px;
+    position: relative;
+    
+}
+.targetQ1_text{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 10rem;
+    color: #3b0562;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .targetQ1_text{
+    margin-top: 0rem;
+    text-align: center;
+}
+.Second_Q1_imge{
+   
+    top: 0px;
+    z-index: 3;
+ 
+    margin-top: 10rem ;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center !important;
+     
+}
+.Second_Q1_Text {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-top: -8rem !important;
+    margin-bottom: 5rem;
+}
+
+}
+
+
+
+/* ------------------------------------------Second Target Q1------------------------------------------------------------------------ */
+
+.Second_target_Q1{
+    background-image: url("../../../Assets/Middle-Plaque-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin-top: -70px;
+    /* margin-bottom: 40px; */
+    padding: 30px 0;
+}
+
+.inner_div_Second_Q1{
+    background-color: #d700ed;
+    margin-top: -1.9rem;
+}
+.Second_Q1_imge{
+    position: relative;
+    top: -135px;
+    z-index: 3;
+    vertical-align: middle;
+    display: inline-block;
+     
+}
+
+
+.Second_Q1_Text {
+    display: flex !important;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: start;
+    margin-top: 10rem;
+
+    width: 100%;
+    /* margin-left: -10rem; */
+}
+.launching-list ul li {
+    color: #eec884;
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 1;
+    
+}
+.launching-content {
+    width: 100%;
+    margin-left: 1rem;
+}
+
+@media (min-width:600px) and (max-width:800px) {
+
+    .Second_Q1_imge{
+    position: relative;
+    top: -80px;
+    z-index: 3;
+    vertical-align: middle;
+    display: inline-block;
+    width: 120%;
+     
+}
+.text_second_top{
+    font-size: 25px !important;
+}
+.Second_Q1_Text {
+    display: flex !important;
+   
+    align-items: center;
+   width: 130%;
+    margin-top: 5rem !important;
+}
+}
+
+@media (min-width:800px) and (max-width:1200px) {
+
+    .text_second_top{
+    font-size: 25px !important;
+}
+.Second_Q1_imge{
+   
+    top: -100px;
+    z-index: 3;
+ 
+    /* margin-top: 10rem; */
+    margin-left: -4rem;
+    display: flex;
+    justify-content: center !important;
+     
+}
+}
+
+
+
+
+.first_target_Q12{
+    background-image: url("../../../Assets/Up-Plaque1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 30px 0;
+    margin-top: -42px;
+
+}
+
+.main_heading_Q21 h2{
+    color: #eec884;
+}

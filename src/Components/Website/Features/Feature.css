@@ -1,0 +1,28 @@
+
+
+.bg_featurem{
+    background-image: url("../../../Assets/Middle-Plaque-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding: 20px 0 30px;
+}
+
+.h2_feature{
+    font-size: 2.2rem;
+    font-weight: 900; 
+    text-align: center;
+}
+
+
+.feature_text_all{
+    background-color: #eec884;
+}
+
+.elementor-heading-title{
+    color: #3b0562;
+}
+.feature_p{
+    color: #3b0562;
+}

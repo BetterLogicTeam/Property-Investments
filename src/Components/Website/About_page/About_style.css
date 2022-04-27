@@ -1,0 +1,137 @@
+
+.about_imge_here{
+    position: absolute;
+    height: 560px;
+}
+ .conent {
+    padding-left: 6%;
+}
+.main-heading h2 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+ .conent p {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.about-bottom-text {
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+.ab-bootom-l ul {
+   display: flex;
+   justify-content: space-between !important;
+   width: 35rem;
+  
+}
+.ab-bootom-l ul li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+   border-right: 1px solid #efc984;
+
+}
+.ab-bootom-l ul li img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.ab-bootom-r{
+   display: flex;
+   justify-content: end;
+   width: 50%;
+}
+
+@media screen and (max-width:600px) {
+    .main-heading h2 {
+        font-size: 1.5rem !important;
+        font-weight: 900;
+    }
+    .conent {
+        padding-left: 12%;
+    }
+    .ab-bootom-l ul {
+        display: flex;
+        justify-content: space-between !important;
+        width: auto;
+        margin-left: -4.5rem;
+       
+     }
+     .ab-bootom-r{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+     }
+     .ab-bootom-r img{
+        width: 100%;
+
+     }
+     .about_imge_here{
+        position: absolute;
+        height: 560px;
+    }
+    
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------TOKENOMICS------------------------------------------------------------------- */
+
+
+.text_and_img_tokenomics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ab-bootom-r{
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul.token-list {
+    padding-left: 0px;
+list-style: none;
+    margin-bottom: 30px;
+}
+ul.token-list li {
+    position: relative;
+    padding-left: 32px;
+    color: #fff;
+    margin-top: -1rem;
+}
+.token-list li::before {
+    content: "\2022";
+    color: #efc984;
+    font-weight: bolder;
+    display: inline-block; 
+    line-height: 50px;
+    font-size: 40px;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+ 
+
+
+  @media screen and (max-width:600px) {
+    .ab-bootom-r img{
+        width: 80%;
+    }
+    .ab-bootom-r{
+        display: flex;
+        justify-content: flex-start;
+    }
+   
+      
+  }

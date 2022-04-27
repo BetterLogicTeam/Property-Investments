@@ -1,0 +1,13 @@
+.arrow_here{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
+}
+
+
+.icon_here{
+    font-size: 2rem;
+
+    color: #ffdca1;
+}

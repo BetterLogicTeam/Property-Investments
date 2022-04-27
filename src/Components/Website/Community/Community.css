@@ -1,0 +1,45 @@
+
+.bg_community{
+    background-image: url("../../../Assets/Plaque_Bottom-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 110px;
+    position: relative;
+}
+.elementor-3567 .elementor-element.elementor-element-6d81b0d>.elementor-element-populated {
+    padding: 50px 0 0;
+}
+.elementor-3567 .elementor-element.elementor-element-fec8a52 .elementor-heading-title {
+    color: #ffdc93;
+}
+
+.inner_community_div{
+    padding: 50px 0 ;
+
+}
+
+.social_icon_community{
+    display: flex;
+    justify-content: center;
+}
+.social-icon a img {
+    height: 45px;
+    margin-left: 10px;
+}
+
+.heading_community h2{
+    color: #ffdc93 !important;
+
+}
+
+@media screen and (max-width:400px) {
+
+  
+    .social-icon a img {
+        height: 40px;
+        margin-left: 10px;
+    }
+    
+    
+}
